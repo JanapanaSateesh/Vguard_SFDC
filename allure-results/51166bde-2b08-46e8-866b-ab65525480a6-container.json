@@ -1,0 +1,1 @@
+{"uuid":"51166bde-2b08-46e8-866b-ab65525480a6","name":"com.TestCases.BaseClass.setUp","children":["a49055a4-5567-494d-a218-c84cdb931b7e"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1674323848083,"stop":1674323855642}],"afters":[],"start":1674323848083,"stop":1674323855642}

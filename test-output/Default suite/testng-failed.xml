@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.TestCases.Lead_TestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startReport"/>
+          <include name="TC_9_Convert_a_Lead_to_an_exist_Account_and_exist_Contact_without_Opportunity" invocation-numbers="0"/>
+          <include name="endReport"/>
+          <include name="TC_1_CreateLead" invocation-numbers="0"/>
+          <include name="TC_7_Convert_Lead_to_an_exist_Account_and_new_Contact_new_Opportunity" invocation-numbers="0"/>
+          <include name="TC_6_Conver_Lead_With_AccountAndContact" invocation-numbers="0"/>
+          <include name="TC_2_UpdateLead"/>
+          <include name="setUp"/>
+          <include name="TC_4_ConvertLead"/>
+          <include name="TC_5_Conver_Lead_With_AccConOpp"/>
+          <include name="TC_3_ValidateCompany" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.TestCases.Lead_TestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

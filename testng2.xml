@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="1" parallel="methods" name="Vguard SFDC Automation Testing">
+    <classes>
+      <class name="com.TestCases.BaseClass"/>
+      <class name="com.TestCases.Lead_TestCases">
+      	<methods>
+        <include name="TC_1_CreateLead" />
+      </methods>
+      	
+      </class>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
