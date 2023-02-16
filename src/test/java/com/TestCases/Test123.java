@@ -37,7 +37,7 @@ public class Test123 {
 		driver.findElement(By.xpath("(//*[@class='slds-dropdown__item']//p//b[text()='Sales'])[3]")).click();
 		ts.TakeSnapShot(driver, "Lead object");
 		WebElement element = driver.findElement(By.xpath("//span[@class='slds-truncate'][contains(text(),'Leads1')]"));
-		
+		//Hi Sateesh
 //		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
 //		wait.until(ExpectedConditions.visibilityOf(element));
 //		
