@@ -120,8 +120,8 @@ public class BaseClass {
 				test.log(Status.FAIL, "Test Case is Failed--" + result.getName());
 				test.log(Status.FAIL, "Test Case is Failed --" + result.getThrowable().getMessage());
 				TakeScreenshot TS = new TakeScreenshot();
-				String path = TS.TakeSnapShot(driver, result.getName());
-				test.addScreenCaptureFromPath(path);
+				String path = TS.TakeSnapShot(driver);
+				test.addScreenCaptureFromBase64String(path);
 	
 
 			}
